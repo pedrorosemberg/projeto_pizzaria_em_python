@@ -1,0 +1,21 @@
+# PASSO A PASSO PARA ATIVAR O AMBIENTE VIRTUAL NO TERMINAL
+
+1. Navegue até a pasta do projeto:
+cd /caminho/para/sua/pasta
+
+2. Crie o ambiente virtual (caso ainda não tenha sido criado):
+python3 -m venv venv
+
+3. Ative o ambiente virtual:
+source venv/bin/activate
+
+4. Instale as dependências (se ainda não tiver feito):
+pip install -r requirements.txt
+
+5. Chame a 'main'
+python main.py
+
+6. Após isso, finalize a máquina virtual
+deactivate
+
+# Após isso, o ambiente estará pronto para rodar o projeto.

@@ -1,0 +1,6 @@
+tk
+geopy
+requests
+reportlab
+folium
+pywebview
